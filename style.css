@@ -4,7 +4,7 @@
 body{
     margin: 0;
     font-size: 16px;
-    background: #e4a172;
+    background-color: #127070;
     font-family: sans-serif;
     font-weight: 400px;
     padding: 0 10px;
@@ -57,7 +57,7 @@ body{
 }
 
 .Home-box p{
-font-size: 19px;
+font-size: 16px;
 margin-bottom: 10px;
 line-height: 10px;
 color: #000000;
@@ -74,7 +74,7 @@ font-weight: 500;
 
 .btn{
     padding: 15px 45px;
-    background-color: #e4a172;
+    background-color: #009688;
     color: #ffffff;
     border: none;
     border-radius: 10px;
@@ -96,7 +96,7 @@ background-color: #ffffff;
 
 .quiz-box .question-number{
     font-size: 18px;
-    color: #545357;
+    color: #009688;
     font-weight: 600;
     border-bottom: 1px #cccccc solid;
     padding-bottom: 10px;
@@ -226,7 +226,7 @@ background-color: #ffffff;
 .result-box h1{
     font-size: 36px;
     line-height: 42px;
-    color: #545357;
+    color: #009688;
 }
 .result-box table{
     width: 100%;

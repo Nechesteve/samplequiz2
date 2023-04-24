@@ -1,50 +1,4 @@
 
-// Set the time for the quiz in seconds
-/*let timeInSeconds = 10;
-
-// Convert the time to minutes and seconds
-let minutes = Math.floor(timeInSeconds / 60);
-let seconds = timeInSeconds % 60;
-
-// Display the initial time
-console.log(`Time remaining:
- ${minutes} minutes ${seconds} seconds`);
-
-// Decrement the timer every second
-let timer = setInterval(function() {
-  // Decrement the time by 1 second
-  timeInSeconds--;
-
-  // Convert the time to minutes and seconds
-  minutes = Math.floor(timeInSeconds / 60);
-  seconds = timeInSeconds % 60;
-
-  document.querySelector(".timer").innerHTML = "Time Left: " + minutes + ":" +
-   (seconds < 10 ? "0" + seconds : seconds);
-
-  // Display the updated time
-  console.log(`Time remaining: ${minutes} minutes ${seconds} seconds`);
-
-  // Check if the time has run out
- 
-  if (timeInSeconds === 0) {
-    clearInterval(timer);
-    console.log("Time's up!");
-    
-    resultBox.querySelector(".total-question").innerHTML = questionLimit;
-    resultBox.querySelector(".total-attempt").innerHTML = attempt;
-  resultBox.querySelector(".total-correct").innerHTML = correctAnswers;
-    resultBox.querySelector(".total-wrong").innerHTML = attempt - correctAnswers;
-    const percentage = (correctAnswers/questionLimit)*100;
-    resultBox.querySelector(".percentage").innerHTML = percentage.toFixed(2) + "%";
-    resultBox.querySelector(".total-score").innerHTML = correctAnswers + " / " + questionLimit;
-  }
-}, 1000); */
-
-
-
-// Function to calculate quiz results
-
 
 
 const questionNumber = document.querySelector(".question-number");
@@ -166,10 +120,6 @@ function answersIndicator(){
 
 function updateAnswerIndicator(markType){
   answersIndicatorContainer.children[questionCounter-1].classList.add(markType)
-}
-
-function prev(){
- questionLimit - getNewQuestion();
 }
 
 function next(){
